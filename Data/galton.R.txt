@@ -1,0 +1,11 @@
+#Prof. Eduardo F. Silva
+#Curso IntroR PET
+#Scrit R Galton
+
+galton <- read.csv("https://efsilvaa.github.io/IntroR/dados/galton.csv")
+
+library(ggplot2)
+
+ggplot(data= galton,aes(x = father-mean(father), y = height -mean(height))) +
+  geom_point(alpha = .2) +
+  stat_smooth(method = "lm")
