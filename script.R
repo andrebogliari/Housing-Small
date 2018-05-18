@@ -1,5 +1,6 @@
 library(ggplot2)
-library(readr)
+library(readr) 
+
 
 housingSmall2 <- read_csv("C:/Users/Andre/Desktop/UFSC/Softwares/RStudio/Projetos/Projeto 5 - Regressão/housingSmall2.csv")
 
